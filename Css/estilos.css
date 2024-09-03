@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4B47D1;
+}
+
+.pricing-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #4B47D1;
+    color: white;
+}
+
+.pricing-container h1 {
+    font-size: 20px;
+}
+
+.pricing-container p {
+    font-size: 40px;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 80px;
+}
+
+.plan {
+    background-color: white;
+    color: #333;
+    width: 200px;
+    margin: 0 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.plan .emoji {
+    font-size: 40px;
+}
+
+.plan h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #F9A826;
+}
+
+.plan .price {
+    font-size: 32px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.plan p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.plan button {
+    background-color: #4B47D1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.plan button:hover {
+    background-color: #3a38b0;
+}
